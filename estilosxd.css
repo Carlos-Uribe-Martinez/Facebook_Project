@@ -95,7 +95,7 @@ header img{
     width: 33%;
 }
 
-.options-two div{
+.sub-options-two{
     width: 40%;
     padding-right: 3%;
     display: flex;
@@ -155,7 +155,9 @@ main a{
     max-height: 15px;
     padding-right: 10px;
 }
-
+.li-top{
+    padding-top: 0;
+}
 li img {
     padding-right: 10px;
 }
@@ -163,13 +165,13 @@ li img {
     padding-block: 18px;
 }
 
-.menu-end {
+.left-sidebar-bottom {
     display: flex;
     align-items: flex-end;
     padding-right: 40px;
 }
 
-.menu-end div {
+.menu-end{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -194,7 +196,7 @@ li img {
     justify-content: space-around;
 }
 
-.stories div {
+.stories-container {
     height: 200px;
     width: 19%;
     background-color: #242526;
@@ -272,7 +274,7 @@ li img {
     padding: 6px 10px 6px 10px;
 }
 
-.container-posts-2 div {
+.options-posts {
     height: 40px;
     width: 30%;
     display: flex;
@@ -280,7 +282,7 @@ li img {
     align-items: center;
 }
 
-.container-posts-2 div:hover{
+.options-posts:hover{
     background-color: #3a3b3c;
     border-radius: 7%;
 }
@@ -342,12 +344,6 @@ li img {
     padding-inline: 4px;
 }
 
-.reacts div {
-    padding-inline: 1px;
-    font-size: 14px;
-    color: lightgray;
-}
-
 .shares {
     display: flex;
 }
@@ -376,12 +372,12 @@ li img {
     display: flex;
     justify-content: space-around;
 }
-.container-meme-4 div:hover,.container-meme-4 button:hover{
+.reacts-buttons:hover,.container-meme-4 button:hover{
     background-color: #3a3b3c;
     border-radius: 7%;
 }
 
-.container-meme-4 div{
+.reacts-buttons{
     width: 30%;
     display: flex;
     justify-content: center;
@@ -423,7 +419,7 @@ li img {
     background-color: #3a3b3c;
 }
 
-.lista-2 div,
+.lista-2-top,
 .lista-2 img,
 .lista-2 a {
     display: flex;
@@ -481,7 +477,7 @@ ul {
     margin-right: 0;
 }
 
-.lista-3 div {
+.container_contact {
     display: flex;
     padding: 3px 3px;
     align-items: center;
@@ -497,7 +493,7 @@ ul {
     right: 29px;
 }
 
-.edit-icon div {
+.sub-edit-icon {
     display: flex;
     justify-content: center;
     align-items: center;
